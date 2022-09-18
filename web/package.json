@@ -1,0 +1,34 @@
+{
+  "name": "animals",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "next dev",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.9",
+    "aos": "^2.3.4",
+    "graphql": "^16.6.0",
+    "next": "12.2.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-app-polyfill": "^3.0.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "@types/styled-components": "^5.1.26",
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.2.0",
+    "next-compose-plugins": "^2.2.1",
+    "typescript": "4.7.4",
+    "url-loader": "^4.1.1"
+  }
+}

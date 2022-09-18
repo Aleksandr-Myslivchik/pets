@@ -1,0 +1,110 @@
+* {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+svg {
+  /** Fix large viewBox and translates in IE */
+  overflow: hidden;
+}
+
+#__next {
+  display: flex;
+}
+
+html, body {
+  width: 100%;
+  min-width: 320px;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-ms-clear {
+  display: none !important;
+}
+
+input::-ms-reveal {
+  display: none !important;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+main {
+  display: block;
+}
+
+ul,
+ol,
+nav {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Sora', -apple-system,
+  'BlickMacSystemFont',
+  'Segoe UI',
+  'Roboto',
+  'Oxygen',
+  'Ubuntu',
+  'Cantarell',
+  'Fira Sans',
+  'Droid Sans',
+  'Helvetica Neue',
+  sans-serif;
+  font-size: 20px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-testid] {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+
+.walletconnect-modal__mobile__toggle:not(.walletconnect-modal__mobile__toggle.right__selected) a:not(:last-child) {
+  color: rgb(0 0 0 / 40%);
+}
+
+.walletconnect-modal__mobile__toggle.right__selected a:last-child {
+  color: rgb(0 0 0 / 40%);
+
+}

@@ -1,0 +1,6 @@
+@import "~normalize.css";
+@import "~nprogress/nprogress.css";
+
+@import '~aos/dist/aos.css';
+
+@import "./globals.css";
